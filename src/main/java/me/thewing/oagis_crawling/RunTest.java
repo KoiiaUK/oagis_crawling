@@ -9,7 +9,7 @@ public class RunTest {
   public static void main(String[] args) {
     Document doc = null;
 
-    String url = "file:///C:/Users/SungJun/Desktop/OAGIS_10_6_EnterpriseEdition/OAGi-BPI-Platform/org_openapplications_oagis/10_6/Documentation/OAGIS.html";
+    String url = "https://github.com/sujl95/oagis_crawling/blob/main/Nouns/ActualLedger.htm";
 
     try {
       doc = Jsoup.connect(url).get();
